@@ -1,9 +1,3 @@
-/*
-Style Sheet for American Sign Language Translator. This file is responsible for the aesthetics of the Translator
-
-Author: Sufiyaan Nadeem
-*/
-
 body {
   font-family: "Google Sans", "sans-serif";
   margin: 0;
@@ -11,7 +5,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: .75em;
+  width: 0.75em;
 }
 
 body::-webkit-scrollbar-track {
@@ -53,33 +47,34 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   color: black;
   overflow: hidden;
-  border-right: .06em solid #4d4d4d;
+  border-right: 0.06em solid #4d4d4d;
   white-space: nowrap;
   /*border: 1px solid orange;*/
   font-family: "Google Sans", "sans-serif";
   margin: 0px;
-  animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
 /* The typing effect */
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
   to {
-    width: 100%
+    width: 100%;
   }
 }
 
 /* The typewriter cursor effect */
 
 @keyframes blink-caret {
-  from, to {
-    border-color: transparent
+  from,
+  to {
+    border-color: transparent;
   }
   50% {
-    border-color: #4d4d4d
+    border-color: #4d4d4d;
   }
 }
 
@@ -154,7 +149,7 @@ h7 {
   /*border: 1px solid orange;*/
   font-weight: 300;
   font-style: italic;
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
 }
 
 button {
@@ -171,7 +166,7 @@ button {
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 button:active {
@@ -274,7 +269,7 @@ button:active {
   text-align: center;
   border-bottom-right-radius: 10px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  transition: .4s;
+  transition: 0.4s;
   display: none;
 }
 
@@ -343,12 +338,12 @@ button:active {
   font-weight: 500;
   color: black;
   /*overflow: hidden;*/
-  border-right: .06em solid #4d4d4d;
+  border-right: 0.06em solid #4d4d4d;
   white-space: nowrap;
   font-family: "Google Sans", "sans-serif";
   margin: 0px;
   display: inline-block;
-  animation: typing 2s steps(30, end), blink-caret .5s step-end infinite;
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
   margin-top: 20px;
 }
 
@@ -374,7 +369,7 @@ button:active {
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 #trainedCardsHolder {
@@ -466,12 +461,12 @@ label {
   width: 190px;
   border-radius: 3px;
   border: none;
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   vertical-align: middle;
 }
 
 #submit-word {
-  font-family: 'Product Sans';
+  font-family: "Product Sans";
   background-color: white;
   border: none;
   color: black;
